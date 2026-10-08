@@ -1,0 +1,49 @@
+# ======================================================================
+#  ⚠️  CREDENCIALES — ¡NUNCA se suben!
+# ======================================================================
+#  secrets.h contiene la contraseña del WiFi y tu contacto para MET
+#  Norway. Se sube secrets.example.h (la plantilla) en su lugar.
+secrets.h
+**/secrets.h
+
+# ======================================================================
+#  Compilación de Arduino / ESP32
+#  (el .elf son ~15 MB y el .map ~17 MB: no tienen nada que hacer aqui)
+# ======================================================================
+build/
+**/build/
+*.bin
+*.elf
+*.map
+*.hex
+*.o
+*.a
+*.d
+*.su
+*.lst
+*.tmp
+
+# Ficheros auxiliares del core de Arduino
+core/
+libraries/
+
+# ======================================================================
+#  Editores
+# ======================================================================
+.vscode/
+.idea/
+*.swp
+*~
+
+# ======================================================================
+#  Sistema operativo
+# ======================================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+*.lnk
+$RECYCLE.BIN/
+
+# Los atajos que crea OneDrive al sincronizar
+*de escritorio.txt
+*de OneDrive.txt
